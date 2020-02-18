@@ -1,0 +1,194 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .bg-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $color-primary;
+        padding: 0  2rem!important;
+    }
+
+    video {
+        display: none;
+    }
+
+    .bg-gradient {
+        display: none;
+    }
+
+    .wrapper-content {
+        // background: #000!important;
+        width: 100%!important;
+        box-shadow: 0 1rem 2rem rgba($color: #000, $alpha: .26)!important;
+        left: 0!important;
+        height: auto!important;
+        padding: 1rem!important;
+        transform: none!important;
+        top: auto !important;
+        position: initial!important;
+
+        h1 {
+            line-height: 1.4;
+            text-align: center;
+        }
+
+        .counter-item:not(:last-child) {
+            margin-right: 1.5rem;
+            border-right: .2px solid $color-primary;
+        }
+
+        .counter-item {
+            p:first-of-type {
+                font-size: 2rem;
+              }
+
+              p {
+                  font-size: 1.3rem;
+              }
+        }
+
+        .info-wrapper {
+            ul  {
+                flex-direction: column;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .bg-wrapper {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // background: $color-primary;
+        padding: 0  2rem!important;
+    }
+
+    // video {
+    //     display: none;
+    // }
+
+    // .bg-gradient {
+    //     display: none;
+    // }
+
+    .wrapper-content {
+        padding: 1rem!important;
+
+        h1 {
+            line-height: 1.4;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .counter-item:not(:last-child) {
+            margin-right: 1.5rem;
+            border-right: .2px solid $color-primary;
+        }
+
+        .counter-item:not(:last-child) {
+            margin-right: .5rem;
+            border-right: .2px solid $color-primary;
+        }
+
+        .counter-item {
+            p:first-of-type {
+                font-size: 1.2rem;
+              }
+
+              p {
+                  font-size: .8rem;
+              }
+        }
+
+        .info-wrapper {
+            ul  {
+                flex-direction: column;
+                font-size: 1.4rem;
+
+                i {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+     .bg-wrapper {
+        padding: 0  2rem!important;
+    }
+
+
+    .wrapper-content {
+        padding: 1rem!important;
+
+        h1 {
+            line-height: 1.4;
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        .counter-item:not(:last-child) {
+            margin-right: 1rem;
+            border-right: .2px solid $color-primary;
+        }
+
+        .counter-item {
+            p:first-of-type {
+                font-size: 1.5rem;
+              }
+
+              p {
+                  font-size: 1rem;
+              }
+        }
+
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .bg-wrapper {
+        padding: 0  2rem!important;
+    }
+
+    .wrapper-content {
+
+        h1 {
+            line-height: 1.4;
+            text-align: center;
+        }
+
+        .counter-item:not(:last-child) {
+            margin-right: 1.5rem;
+            border-right: .2px solid $color-primary;
+        }
+
+        .counter-item {
+            p:first-of-type {
+                font-size: 2rem;
+              }
+
+              p {
+                  font-size: 1.3rem;
+              }
+        }
+
+        .info-wrapper {
+            ul  {
+                flex-direction: row;
+            }
+        }
+
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
