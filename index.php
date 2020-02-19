@@ -21,6 +21,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png">
     <link rel="manifest" href="/public/site.webmanifest">
 
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/public/vendors/icofont/icofont.min.css">
     <link rel="stylesheet" href="/public/css/main.css">
 </head>
@@ -80,7 +81,7 @@
 
                         <li>
                             <i class="icofont icofont-contacts"></i>
-                            +225 47121287
+                            +225 47 12 12 87
                         </li>
                     </ul>
                 </div>
@@ -88,7 +89,7 @@
                 <div class="social-wrapper">
                     <ul>
                          <li>
-                            <a href="https://facebook.com/Ivoireparcauto" target="_blank">
+                            <a href="https://www.facebook.com/IvoireParcAuto-102492084678474" target="_blank">
                                 <i class="icofont icofont-facebook"></i>
                             </a>
                         </li>
