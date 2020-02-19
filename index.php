@@ -10,6 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ivoireparcauto | La location proche de vous!</title>
 
+    <meta name="description" content="ivoire parc auto page de lancement du de la plateforme de location de véhicule">
+    <meta name="keywords" content="location de véhicule, location de voiture, Location, offre de voiture, trouver un véhicule, offre de véhicule, chercher un véhicule, chercher une voiture">
+    <meta name="author" content="Kadjo Sylvain">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="144x144" href="/public/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png">
+    <link rel="manifest" href="/public/site.webmanifest">
+
     <link rel="stylesheet" href="/public/vendors/icofont/icofont.min.css">
     <link rel="stylesheet" href="/public/css/main.css">
 </head>
