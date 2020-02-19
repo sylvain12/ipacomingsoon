@@ -26,10 +26,10 @@
                 <div class="img-wrapper">
                         <img src="/public/images/logo-couleur.png" alt="logo ivoire parc auto">
                 </div>
-                <h1>Bientôt le lancement!</h1>
+                <h1>Bientôt le lancement !</h1>
                 
                 <div class="svg-wrapper">
-                    <img src="/public/images/flyer.png" alt="image lancement">
+                    <img src="/public/images/flyer.svg" alt="Launching image">
                 </div>
 
             <div class="counter-wrapper">
